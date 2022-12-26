@@ -18,7 +18,7 @@ function removeDuplicates(inputArray) {
     console.log(removeDuplicates([1,2,2,3,4,55,55]));
 
 
-    //New version of JS
+    //Alternative
 
     var removeDuplicate = function(numArr) {
         var newArr = [];
@@ -33,5 +33,21 @@ function removeDuplicates(inputArray) {
 
 
     var nums = [1,1,3,3,6,6,16,16,23,23];
+
+    console.log(removeDuplicate(nums));
+
+
+    //New version JS
+
+    const removeDuplicate = (numArr) => {
+        let newArr = [];
+        numArr.forEach(num => {
+            if(!newArr.includes(num)){
+            newArr.push(num);
+            }
+        });
+        return newArr;
+    }
+    const nums = [1,1,3,3,6,6,16,16,23,23];
 
     console.log(removeDuplicate(nums));
