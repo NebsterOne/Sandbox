@@ -17,6 +17,7 @@
 // }
 // count();
 
+//*****REVIEW
 //functional loops: forEach, filter and map
 
 const moviePatrons= [
@@ -29,20 +30,34 @@ const moviePatrons= [
     {name: "George", age: 46},
 ];
 
-//forEach
+//**forEach
 
 //moviePatrons.forEach(patron => console.log(patron.name));
 
 
-//filter
+//**filter
 
 // const canWatchRatedR1 = moviePatrons.filter(howold => howold.age > 17);
 
 // console.log(canWatchRatedR1);
 
-const canWatchRatedR1 = moviePatrons.filter(item => {
 
-console.log(item.name);
+//**Filtering each fields from the Arrays
+
+// const canWatchRatedR1 = moviePatrons.filter(item => {
+
+// console.log(`How old are patrons on the list ${item.age}`);
+// })
+
+//**map
+
+const newArr2 = moviePatrons.map(item => {
+    if(item.age >17) {
+        return{name: item.name, age: item.age, R: true}
+    }
+    else {
+        return item;
+    }
 })
 
-//map
+console.log(newArr2);
