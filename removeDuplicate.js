@@ -51,3 +51,6 @@ function removeDuplicates(inputArray) {
     const nums = [1,1,3,3,6,6,16,16,23,23];
 
     console.log(removeDuplicate(nums));
+
+
+    
