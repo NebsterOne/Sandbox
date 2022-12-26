@@ -51,13 +51,18 @@ const moviePatrons= [
 
 //**map
 
-const newArr2 = moviePatrons.map(item => {
-    if(item.age >17) {
-        return{name: item.name, age: item.age, R: true}
-    }
-    else {
-        return item;
-    }
-})
+// const newArr2 = moviePatrons.map(item => {
+//     if(item.age >17) {
+//         return{name: item.name, age: item.age, R: true}
+//     }
+//     else {
+//         return item;
+//     }
+// })
 
-console.log(newArr2);
+// console.log(newArr2);
+
+
+//**Template literals
+// const day = 'Thursday';
+// console.log(`Today is ${day}`); 
