@@ -1,3 +1,6 @@
+//Older style 
+
+
 function removeDuplicates(inputArray) { 
     var newArray = new Array();
 
@@ -13,3 +16,22 @@ function removeDuplicates(inputArray) {
         return newArray;
     }
     console.log(removeDuplicates([1,2,2,3,4,55,55]));
+
+
+    //New version of JS
+
+    var removeDuplicate = function(numArr) {
+        var newArr = [];
+        for (var i = 0; i < numArr.length; i++) {
+            if(!newArr.includes(numArr[i])) {
+                newArr.push(numArr[i]);
+            }
+            
+        }
+        return newArr;
+    }
+
+
+    var nums = [1,1,3,3,6,6,16,16,23,23];
+
+    console.log(removeDuplicate(nums));
