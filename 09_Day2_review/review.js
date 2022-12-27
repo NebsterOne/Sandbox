@@ -35,5 +35,9 @@ const fs = require('fs');
 //         console.log("Space junk falls into Earth's atmosphere ar a rate of about one a day.");
 //     }
 // }
-const planet = require('./review_planet');
-planet.tellFunFact();
+// const planet = require('./review_planet');
+// planet.tellFunFact();
+
+
+// npm init / npm init - y / npm i inquirer / npm i inquirer@8.2.4 / npm i 
+//npm i badmath
