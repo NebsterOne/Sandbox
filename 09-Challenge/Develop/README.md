@@ -1,13 +1,9 @@
 # undefined
-![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)  
-
-
-
-
+![MIT license](https://img.shields.io/badge/license-GPL3.0-blue.svg)  
 
 
 ## Desscription
-Challenge 9 README Generator
+1
 
 ## Table of Contents
   
@@ -23,11 +19,11 @@ Challenge 9 README Generator
   To install necesary dependencies, run the following command:
   
   ```
-  npm i
+  1
   ```
   
   ## Usage
-  > Everything
+  > 1
   
   ## Contributing
   > undefined
@@ -35,14 +31,14 @@ Challenge 9 README Generator
   ## Test 
   To test the application, please follow the below:
   ```
-  npi test
+  1
   ```
   ## Questions
-  > Should you have any questions, please send email to nelectrik@gmail.com. 
+  > Should you have any questions, please send email to 1. 
   
   ## Github
-  > https://github.com/NebsterOne
+  > https://github.com/1
   
   
   ## License 
-  > ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  > ![GitHub license](https://img.shields.io/badge/license-GPL3.0-blue.svg)
